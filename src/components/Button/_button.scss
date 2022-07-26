@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss';
+
+.ui-button {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    gap: 8px;
+    border-radius: 40px;
+    border: none;
+    color: var(--light-color);
+
+    &.secondary {
+        background-color: var(--primary-light);
+        color: var(--primary);
+    }
+
+    &.primary {
+        background-color: var(--primary);
+        color: var(--light-color);
+    }
+
+    &.large {
+        padding: 1rem 1.625rem 1rem 1.625rem;
+        border-radius: var(--border-radius-6x);
+
+        .btn-inner-wrapper {
+            .text-holder {
+                font-weight: var(--thick-level1-font);
+                font-size: var(--medium-font);
+                text-align: center;
+            }
+        }
+    }
+
+    .btn-inner-wrapper {
+        display: flex;
+        align-items: center;
+
+        .icon-holder {
+            .ui-icon {
+                margin-right: 10px;
+            }
+        }
+
+        .text-holder {
+            font-weight: var(--thick-level1-font);
+            font-size: var(--small-font);
+            text-align: center;
+        }
+    }
+}
