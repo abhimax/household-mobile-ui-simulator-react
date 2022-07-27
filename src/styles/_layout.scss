@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+html,
+body,
+#root,
+.app-container {
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.app-container {
+   display: flex;
+   flex-direction: column;
+   background: linear-gradient(180deg, #EEF6FE 29.19%, #F8FBFF 56.46%);
+   box-shadow: 0px 40px 80px -8px rgba(0, 35, 88, 0.3);
+}
+
+header {
+   height: 80px;
+}
+
+main {
+   flex: auto;
+   display: flex;
+   flex-direction: column;
+
+   .top-panel {
+      display: flex;
+      height: 132px;
+   }
+
+   .middle-panel {
+      min-height: 240px;
+      background-image: url("../assest/graphics/bg-shape.svg");
+      background-position: bottom;
+      background-size: cover;
+      background-position: center top;
+      background-size: cover;
+   }
+
+   .bottom-panel {
+      display: flex;
+      flex-grow: 1;
+   }
+}
+
+footer {
+   height: 72px;
+}

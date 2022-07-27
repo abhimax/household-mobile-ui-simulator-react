@@ -1,0 +1,71 @@
+@import "./variables.scss";
+
+.page-header {
+    font-size: var(--large-font);
+    line-height: 2.2rem;
+    color: var(--text-high-emphasi);
+    font-weight: var(--thick-level1-font);
+}
+
+.section-header {
+    font-size: var(--large-font);
+    line-height: 2.2rem;
+    color: var(--text-medium-emphasis);
+    font-weight: var(--thick-level1-font);
+}
+
+.section-sub-header {
+    font-size: var(--medium-font);
+    line-height: 1.5rem;
+    color: var(--text-low-emphasis);
+    font-weight: var(--thick-level3-font);
+}
+.item-header {
+    font-weight: var(--thick-level1-font);
+    font-size: var(--medium-font);
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--text-high-emphasis);
+    width: 100%;
+}
+
+.item-sub-header {
+    font-weight: var(--thick-level3-font);
+    font-size: var(--small-font);
+    line-height: 1.25rem;
+    text-align: center;
+    color: var(--text-low-emphasis);
+    width: 100%;
+}
+
+.special-header {
+    font-weight: var(--thick-level2-font);
+    font-size: var(--x-small-font);
+    line-height: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.special-jumbo-header {
+    font-weight: var(--thick-level1-font);
+    font-size: var(--xx-large-font);
+    line-height:var(--xx-large-font);
+    color: var(--primary);
+}
+
+.text-center {
+    text-align: center;
+    width: 100%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-strong-black {
+    font-weight: var(--thick-level1-font);
+    color: var(--black) !important;
+}
+
+a {
+    text-decoration: none;
+}
