@@ -1,0 +1,42 @@
+@import '../../styles/variables.scss';
+
+//common
+.ui-icon {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+
+  .fill-white {
+    fill: var(--white) !important;
+  }
+
+  .fill-gray {
+    fill: var(--dark-gray) !important;
+  }
+
+  .fill-blue {
+    fill: var(--cyan-blue) !important;
+  }
+
+  .fill-black {
+    fill: var(--black) !important;
+  }
+}
+
+//size definitions
+.ui-icon {
+  &.small {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.medium {
+    width: 26px;
+    height: 26px;
+  }
+
+  &.large {
+    width: 34px;
+    height: 34px;
+  }
+}
