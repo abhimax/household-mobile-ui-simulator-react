@@ -1,0 +1,84 @@
+@import '../../styles/variables.scss';
+
+.icon-tile-outer-wrapper {
+    width: 64px;
+    height: 64px;
+    background: var(--light-color);
+    box-shadow: 0px 6px 18px rgba(3, 78, 120, 0.15);
+    border-radius: var(--border-radius-2x);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &.skin-green {
+        .icon-tile-inner-wrapper {
+            background: linear-gradient(160.35deg, #00EBC1 7.95%, #00BDC9 92.76%);
+            box-shadow: 0px 5px 12px rgba(1, 164, 200, 0.4);
+        }
+    }
+
+    &.skin-blue {
+        .icon-tile-inner-wrapper {
+            background: linear-gradient(160.35deg, #26C8FC 7.95%, #5E76F5 92.76%);
+            box-shadow: 0px 5px 12px rgba(1, 81, 200, 0.4);
+        }
+    }
+
+    &.skin-orange {
+        .icon-tile-inner-wrapper {
+            background: linear-gradient(160.35deg, #FFD875 7.95%, #F43D53 92.76%);
+            box-shadow: 0px 5px 12px rgba(246, 116, 67, 0.4);
+        }
+    }
+
+    &.skin-magenta {
+        .icon-tile-inner-wrapper {
+            background: linear-gradient(160.35deg, #FC6FFF 7.95%, #AF3DF4 92.76%);
+            box-shadow: 0px 5px 12px rgba(183, 66, 246, 0.4);
+        }
+    }
+
+    .icon-tile-inner-wrapper {
+        width: 44px;
+        height: 44px;
+        border-radius: var(--border-radius-1x);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.icon-button-wrapper{
+    width: 56px;
+    height: 56px;
+    background: var(--light-color);
+    border-radius: var(--border-radius-2x);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: var(--border-radius-2x);
+    &.large{
+        width: 80px;
+        height: 80px; 
+    }
+    &.small{
+        width: 32px;
+        height: 32px;
+        border-radius: var(--border-radius-1x);
+    }
+    &.inner-shadow{
+        box-shadow: inset 0px 4px 10px rgba(190, 200, 216, 0.5);
+    }  
+    &.outer-shadow{
+        box-shadow: 0px 6px 18px rgba(3, 78, 120, 0.15);
+    }
+    &.selected{
+        border: 2px solid var(--primary);
+        .ui-icon{
+            path{
+                fill:var(--primary) !important;
+            }
+        }
+    }   
+}
