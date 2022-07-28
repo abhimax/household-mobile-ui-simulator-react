@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+.app-header{
+    background-color: var(--light-color);
+    color: var(--text-high-emphasis);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    .app-header-title{
+        display: flex;
+        width: fit-content;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        .menu.ui-icon{
+            margin-right: 1.25rem;
+        }
+    }
+    align-items: center;
+    .avatar-img{
+        width: 56px;
+        height: 56px;
+    }
+} 

@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.app-footer {
+    display: flex;
+    background-color: var(--light-color);
+    justify-content: space-around;
+    align-items: center;
+
+    .icon-button-wrapper {
+        box-shadow: none !important;
+    }
+}
