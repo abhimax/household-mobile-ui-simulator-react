@@ -1,0 +1,166 @@
+@import '../styles/variables.scss';
+
+.smart-home-main {
+
+    //temperature section styles
+    .temp-list-wrapper {
+        width: 100%;
+        background-color: var(--light-color);
+        display: flex;
+        overflow-y: scroll;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding-top: 8px;
+    }
+
+    .temp-list-item-wrapper {
+        flex-basis: 72px;
+        min-width: 72px;
+        height: 132px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 26px;
+        overflow-x: scroll;
+
+        .item-header {
+            margin-top: 10px;
+        }
+    }
+
+    //Current Usage Section Styles
+    .current-usage-wrapper {
+        padding-top: 22px;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .section-title {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .col-prgress {
+
+            display: flex;
+            flex-basis: 140px;
+        }
+
+        .col-side {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+
+            .type-list-item-wrapper {
+                margin-top: 16px;
+
+                .item-header {
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
+
+    //Modes section styles
+    .mode-list-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+
+        .section-header-wrapper {
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 1.25rem 0.5rem 1.25rem;
+
+            .icon-button-wrapper {
+                background-color: var(--primary-light);
+                box-shadow: none;
+
+                .ui-icon {
+                    margin-top: 4px;
+                }
+            }
+        }
+
+        .section-content {
+            display: flex;
+
+        }
+
+        .type-list-item-wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+.smart-home-reward-page {
+    background: var(--light-color);
+
+    .page-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1.5rem;
+
+        .illustration-image {
+            width: 220px;
+            height: 220px;
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+        }
+
+        .result-indicator-card {
+            background-color: var(--notify-orange-light);
+            color: var(--notify-orange);
+            background-color: var(--notify-orange-light);
+            color: var(--notify-orange);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1rem;
+            height: 80px;
+            background-image: url("../assest/graphics/coins.svg");
+            background-repeat: no-repeat, repeat;
+            background-position: 20px 50%;
+
+            .card-title {
+                font-weight: var(--thick-level1-font);
+                font-size: var(--medium-font);
+                line-height: var(--medium-font);
+                letter-spacing: -0.4px;
+            }
+
+            .card-points {
+                font-weight: var(--thick-level1-font);
+                font-size: var(--x-large-font);
+                line-height: var(--x-large-font);
+                letter-spacing: -0.6px;
+
+            }
+        }
+
+        .ui-button {
+            margin-bottom: 40px;
+        }
+
+        .special-jumbo-header {
+            margin: 15px 0 15px 0;
+        }
+    }
+
+
+}
