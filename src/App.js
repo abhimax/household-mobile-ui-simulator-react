@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/main.scss';
 import HomePage from './pages/HomePage';
 import SmartHomeRewardPage from './pages/SmartHomeRewardPage';
 import {
