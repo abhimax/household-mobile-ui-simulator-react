@@ -1,8 +1,6 @@
 @import '../styles/variables.scss';
 
 .smart-home-main {
-
-    //temperature section styles
     .temp-list-wrapper {
         width: 100%;
         background-color: var(--light-color);
@@ -161,6 +159,4 @@
             margin: 15px 0 15px 0;
         }
     }
-
-
 }
