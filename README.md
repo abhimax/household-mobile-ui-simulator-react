@@ -1,3 +1,14 @@
+#  Household Mobile App
+
+## Tech Stack
++ React
++ SCSS
+
+## Home Screen
+![HOUSEHOLD!](readme-res/household-home.png)
+
+## Summary Screen
+![HOUSEHOLD2!](readme-res/household-summary-screen.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
